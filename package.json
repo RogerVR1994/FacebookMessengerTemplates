@@ -1,6 +1,6 @@
 {
   "name": "messenger_templates",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Helps you create Facebook Messenger templates for bots. Includes Buttons, Carousels, Lists, etc....",
   "main": "dist/lib/index.js",
   "scripts": {
