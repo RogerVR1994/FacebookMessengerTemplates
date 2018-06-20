@@ -77,7 +77,7 @@ function createCarousel(content, count) {
 }
 
 function cleanHtml(message) {
-  return message.replace(/<li>/g, '\n*** ').replace(/\/p/g, '\n').replace(/<strong>|<\/strong>/g, '*').replace(/<(?:.|\n)*?>/gm, '').replace(/&nbsp/g, '').replace(/;/g, '').replace(/<p>/g, '');
+  return message.replace(/<br>/g, '\n').replace(/<li>/g, '\n*** ').replace(/\/p/g, '\n').replace(/<strong>|<\/strong>/g, '*').replace(/<(?:.|\n)*?>/gm, '').replace(/&nbsp/g, '').replace(/;/g, '').replace(/<p>/g, '');
 }
 
 function createImgUrl(content) {
