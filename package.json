@@ -1,0 +1,33 @@
+{
+  "name": "messenger_templates",
+  "version": "0.1.0",
+  "description": "Helps you create Facebook Messenger templates for bots. Includes Buttons, Carousels, Lists, etc....",
+  "main": "dist/lib/index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "babel lib/index.js -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/RogerVR1994/FacebookMessengerTemplates.git"
+  },
+  "keywords": [
+    "facebook",
+    "messenger",
+    "templates",
+    "bots",
+    "chatbots"
+  ],
+  "author": "Rogelio Ventura <rogeliovr94@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RogerVR1994/FacebookMessengerTemplates/issues"
+  },
+  "homepage": "https://github.com/RogerVR1994/FacebookMessengerTemplates#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.1.2",
+    "mocha": "^5.2.0"
+  }
+}
