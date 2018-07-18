@@ -76,6 +76,10 @@ function createCarousel(content, count) {
   return carousel;
 }
 
+function purgeHtml(message) {
+  return message.replace(/<(?:.|\n)*?>/gm, '');
+}
+
 function cleanHtml(message) {
   return message.replace(/<br>/g, '\n').replace(/<li>/g, '\n*** ').replace(/\/p/g, '\n').replace(/<strong>|<\/strong>/g, '*').replace(/<(?:.|\n)*?>/gm, '').replace(/&nbsp/g, '').replace(/;/g, '').replace(/<p>/g, '');
 }
@@ -137,3 +141,4 @@ module.exports.cleanHtml = cleanHtml;
 module.exports.createCarousel = createCarousel;
 module.exports.cleanAccents = cleanAccents;
 module.exports.createList = createList;
+module.exports.purgeHtml = purgeHtml;
